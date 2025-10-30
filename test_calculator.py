@@ -11,3 +11,12 @@ class TestCalculator:
 
     def test_multiplication(self):
         assert 100 == calculator.multiply(10, 10)
+
+    def test_division_basic(self):
+        assert 2.0 == calculator.division(4, 2)
+
+    def test_division_precision(self):
+        assert 3.33 == calculator.division(10, 3)
+
+    def test_division_by_zero(self):
+        assert "Error: Division by zero" == calculator.division(5, 0)
