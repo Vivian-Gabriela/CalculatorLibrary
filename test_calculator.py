@@ -20,3 +20,4 @@ class TestCalculator:
 
     def test_division_by_zero(self):
         assert "Error: Division by zero" == calculator.division(5, 0)
+
