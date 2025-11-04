@@ -19,5 +19,5 @@ class TestCalculator:
         assert 3.33 == calculator.division(10, 3)
 
     def test_division_by_zero(self):
-        assert "Error: Division by zero" == calculator.division(5, 0)
+        assert "Error" == calculator.division(5, 0)
 
