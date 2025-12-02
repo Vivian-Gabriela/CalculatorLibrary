@@ -11,7 +11,7 @@ def multiply(first_term, second_term):
 
 def division(first_term, second_term):
     if second_term == 0:
-        return "Error"
+        return "Error: Division by zero"
     resultado = first_term / second_term
 
     return round(resultado, 2)
